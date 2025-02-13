@@ -10,16 +10,14 @@
   <version>8.17.2</version>
   <packaging>jar</packaging>
   <properties>
-    <plugin.version>8.17.2</plugin.version>
     <lucene.version>9.12.0</lucene.version>
-    <elasticsearch.version>8.17.2</elasticsearch.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   <dependencies>
     <dependency>
       <groupId>org.elasticsearch</groupId>
       <artifactId>elasticsearch</artifactId>
-      <version>${elasticsearch.version}</version>
+      <version>${project.version}</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -46,7 +44,7 @@
     <dependency>
       <groupId>org.elasticsearch.test</groupId>
       <artifactId>framework</artifactId>
-      <version>${elasticsearch.version}</version>
+      <version>${project.version}</version>
       <scope>test</scope>
       <exclusions>
         <exclusion>
