@@ -17,7 +17,7 @@
     <dependency>
       <groupId>org.elasticsearch</groupId>
       <artifactId>elasticsearch</artifactId>
-      <version>${elasticsearch.version}</version>
+      <version>${project.version}</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -50,7 +50,7 @@
     <dependency>
       <groupId>org.elasticsearch.test</groupId>
       <artifactId>framework</artifactId>
-      <version>${elasticsearch.version}</version>
+      <version>${project.version}</version>
       <scope>test</scope>
       <exclusions>
         <exclusion>
