@@ -21,7 +21,7 @@ public class LemmagenFilterFactory extends AbstractTokenFilterFactory {
 
   public LemmagenFilterFactory(Environment env, String name, Settings settings) {
 
-    super(name, settings);
+    super(name);
 
     String lexicon = settings.get("lexicon", null);
     String lexiconPath = settings.get("lexicon_path", null);
